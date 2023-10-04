@@ -30,7 +30,7 @@ module=mariadbmon
 servers=server1
 user=maxscale
 password=Password123!
-monitor_interval=2000
+monitor_interval=2000ms
  
 # Service definitions
 #

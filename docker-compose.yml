@@ -26,7 +26,7 @@ services:
     environment:
       MARIADB_ROOT_PASSWORD: 'Password123!'
   mxs1:
-    image: mariadb/maxscale:6.1.1
+    image: mariadb/maxscale:23.08
     hostname: 'mxs'
     container_name: 'mxs'
     links:
